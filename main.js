@@ -1,14 +1,14 @@
 let eta = parseInt(prompt("Inserisci la tua età:"));
 
 /* controllo la validità dell'età inserita*/
-if(isNaN(eta)){
+while(isNaN(eta)){
     eta = parseInt(prompt("numero non valido, inserisci la tua età"));
 }
 
 let chilometri = parseInt(prompt("Inserisci i chilometri che vuoi percorrere"));
 
 /* controllo la validità dei chilometri inseriti*/
-if(isNaN(chilometri)){
+while(isNaN(chilometri)){
     chilometri = parseInt(prompt("numero non valido, inserisci i chilometri che vuoi percorrere"));
 }
 
